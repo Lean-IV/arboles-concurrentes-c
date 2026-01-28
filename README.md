@@ -22,17 +22,12 @@ Fue diseñado e implementado por el autor como parte del trabajo practico final 
 
 
 
-\- Implementar un árbol binario de búsqueda con datos aleatorios únicos
-
-\- Desarrollar recorridos clásicos del árbol en versión secuencial
-
-\- Implementar recorridos concurrentes utilizando hilos (pthreads)
-
-\- Controlar dinámicamente la cantidad de hilos según los núcleos disponibles
-
-\- Comparar tiempos de ejecución entre enfoques secuenciales y concurrentes
-
-\- Analizar el impacto del paralelismo en árboles de distintos tamaños
+* Implementar un árbol binario de búsqueda con datos aleatorios únicos
+* Desarrollar recorridos clásicos del árbol en versión secuencial
+* Implementar recorridos concurrentes utilizando hilos (pthreads)
+* Controlar dinámicamente la cantidad de hilos según los núcleos disponibles
+* Comparar tiempos de ejecución entre enfoques secuenciales y concurrentes
+* Analizar el impacto del paralelismo en árboles de distintos tamaños
 
 --
 
@@ -42,24 +37,15 @@ Fue diseñado e implementado por el autor como parte del trabajo practico final 
 
 
 
-\- Programación en lenguaje C
-
-\- Programación Concurrente
-
-\- Uso de pthreads
-
-\- Creación y sincronización de hilos
-
-\- Estructuras de datos dinámicas
-
-\- Árbol binario de búsqueda
-
-\- Recorridos PreOrder, InOrder y PostOrder
-
-\- Medición de tiempos de ejecución (clock)
-
-\- Encapsulamiento mediante getters y setters
-
+* Programación en lenguaje C
+* Programación Concurrente
+* Uso de pthreads
+* Creación y sincronización de hilos
+* Estructuras de datos dinámicas
+* Árbol binario de búsqueda
+* Recorridos PreOrder, InOrder y PostOrder
+* Medición de tiempos de ejecución (clock)
+* Encapsulamiento mediante getters y setters
 * Diseño modular del código
 * Control adaptativo de concurrencia
 
@@ -77,15 +63,11 @@ src/
 
 
 
-\- arbol.c
-
-\- arbol.h
-
-\- main.c
-
-\- utils.c
-
-\- utils.h
+* arbol.c
+* arbol.h
+* main.c
+* utils.c
+* utils.h
 
 
 
@@ -93,7 +75,7 @@ docs/
 
 
 
-\- Informe\_Programacion\_Concurrente\_Arbol\_Binario.pdf
+* Informe\_Programacion\_Concurrente\_Arbol\_Binario.pdf
 
 
 
@@ -129,8 +111,6 @@ gcc \*.c -o arbol -lpthread
 
 
 
---
-
 
 
  DOCUMENTACION
@@ -141,15 +121,11 @@ El archivo PDF incluido en la carpeta docs contiene:
 
 
 
-\- Explicación detallada del problema
-
-\- Justificación del enfoque concurrente
-
-\- Descripción de la solución implementada
-
-\- Comparación entre recorridos secuenciales y concurrentes
-
-\- Análisis de resultados y conclusiones
+* Explicación detallada del problema
+* Justificación del enfoque concurrente
+* Descripción de la solución implementada
+* Comparación entre recorridos secuenciales y concurrentes
+* Análisis de resultados y conclusiones
 
 
 
@@ -161,12 +137,9 @@ El archivo PDF incluido en la carpeta docs contiene:
 
 
 
-\- Proyecto realizado como trabajo práctico final de la materia Programación Concurrente
-
-\- El algoritmo concurrente fue desarrollado íntegramente por el autor
-
-\- No se utilizan frameworks ni librerías externas fuera de pthread
-
+* Proyecto realizado como trabajo práctico final de la materia Programación Concurrente
+* El algoritmo concurrente fue desarrollado íntegramente por el autor
+* No se utilizan frameworks ni librerías externas fuera de pthread
 * El enfoque concurrente permite reducir los tiempos de ejecución en árboles grandes, aprovechando el paralelismo disponible en sistemas multinúcleo
 * La versión concurrente no replica la lógica secuencial, sino que introduce control explícito de creación y sincronización de hilos
 
