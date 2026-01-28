@@ -1,0 +1,20 @@
+# Ejecutables
+*.exe
+*.out
+a.out
+
+# Archivos objeto
+*.o
+*.obj
+
+# Carpetas de build
+build/
+Debug/
+Release/
+
+# IDEs
+.vscode/
+.idea/
+
+# SO
+.DS_Store
