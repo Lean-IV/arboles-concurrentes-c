@@ -11,10 +11,17 @@ a.out
 build/
 Debug/
 Release/
+bin/
+obj/
 
 # IDEs
 .vscode/
 .idea/
+
+# Code::Blocks
+*.cbp
+*.layout
+*.depend
 
 # SO
 .DS_Store
