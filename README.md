@@ -99,20 +99,6 @@ El proyecto puede ejecutarse directamente desde un entorno de desarrollo como Co
 
 
 
-Alternativamente, también puede compilarse desde consola utilizando gcc y la biblioteca pthread.
-
-
-
-Ejemplo de compilación:
-
-
-
-gcc \*.c -o arbol -lpthread
-
-
-
-
-
  DOCUMENTACION
 
 
